@@ -1,0 +1,28 @@
+favicon: 'img/favicon.ico'
+
+navbar:
+  logo: 'img/logo.png'
+  logo_text: 'IoT'
+  links:
+    zh-CN:
+      - logo: 'fas fa-book'
+        text: '文档'
+        url: '/'
+      - logo: 'fab fa-github'
+        text: 'Github'
+        url: 'https://github.com/negoces/docs'
+
+sidebar:
+  zh-CN:
+    docs:
+      level: 2
+      items:
+        - 开始使用:
+          - 安装 | install.html
+          - 配置 | config.html
+        - 其他:
+          - 额外语法 | docs/others/writting
+
+github:
+  repo: negoces/docs
+  edit_on_github: true
