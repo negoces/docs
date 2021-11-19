@@ -11,6 +11,9 @@ navbar:
       - logo: 'fab fa-github'
         text: 'Github'
         url: 'https://github.com/negoces/docs'
+      - logo: 'fab fa-github'
+        text: 'Github(镜像)'
+        url: 'https://hub.fastgit.org/negoces/docs'
 
 sidebar:
   zh-CN:
