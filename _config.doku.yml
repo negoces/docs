@@ -21,7 +21,8 @@ sidebar:
       level: 2
       items:
         - 其他:
-          - 额外语法 | docs/others/writting
+          - 编写文档 | docs/others/writting
+          - 额外语法 | docs/others/shortcut
 
 github:
   repo: negoces/docs
