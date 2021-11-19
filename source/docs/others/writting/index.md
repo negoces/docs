@@ -62,6 +62,8 @@ git clone git@ssh.fastgit.org:negoces/docs.git
 4. 使用 `npm run server` 或 `yarn server` 指令启动预览服务。
 5. 浏览 <http://localhost:4000> 即可实时预览文档内容。
 
+![Server](server.png)
+
 ## 添加并编写文章
 
 文档的文章存放在 `sources` 文件夹，为 Markdown 格式文件。文章头部需添加下列参数：

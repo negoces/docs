@@ -20,6 +20,8 @@ sidebar:
     docs:
       level: 2
       items:
+        - STM32:
+          - 1.开发环境搭建 | docs/stm32/setup_devenv
         - 其他:
           - 编写文档 | docs/others/writting
           - 额外语法 | docs/others/shortcut
