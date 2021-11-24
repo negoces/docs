@@ -20,13 +20,15 @@ sidebar:
     docs:
       level: 2
       items:
+        - 必读:
+          - 提交规范 | docs/readme/commit_spec/
         - STM32:
           - 1.开发环境搭建 | docs/stm32/setup_devenv/
           - 2.GPIO使用 | docs/stm32/GPIO/
         - 其他:
           - 编写文档 | docs/others/writting/
           - 额外语法 | docs/others/shortcut/
-          
+
 
 github:
   repo: negoces/docs
