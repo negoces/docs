@@ -1,5 +1,5 @@
 ---
-title: 编写文档
+title: 编写指南
 description: 参与修改本文档的详细操作
 type: docs
 author_info: 由 negoces 编写
@@ -122,6 +122,8 @@ items:
 
 1. 使用 `git add *` 指令将所有更改暂存在本地。
 2. 使用 `git commit -m "提交信息"` 添加提交信息。
+
+参考 [提交规范](/docs/readme/commit_spec/)
 
 ## 推送到远程
 
