@@ -3,7 +3,7 @@ title: 编写文档
 description: 参与修改本文档的详细操作
 type: docs
 author_info: 由 negoces 编写
-last_updated: 2021-11-19
+last_updated: 2021-11-24
 ---
 
 {% note warning 注意 %}
@@ -66,7 +66,24 @@ git clone git@ssh.fastgit.org:negoces/docs.git
 
 ## 添加并编写文章
 
-文档的文章存放在 `sources` 文件夹，为 Markdown 格式文件。文章头部需添加下列参数：
+文档的文章存放在 `sources` 文件夹，为 Markdown 格式文件。
+
+{% note warning %}
+创建或添加文章时请注意路径规范，要凸显其分类，比如当前文档为编写文档的教程，故分类在：
+
+- `sources/docs/others/writting/index.md`
+
+STM32 的 GPIO 教程则分类在(包含图片存放路径)：
+
+- `sources/docs/stm32/GPIO/index.md`
+- `sources/docs/stm32/GPIO/1.png`
+- `sources/docs/stm32/GPIO/2.png`
+- `sources/docs/stm32/GPIO/3.jpg`
+
+目录需自行手动添加，文档不会自动生成目录。
+{% endnote %}
+
+文章头部需添加下列参数：
 
 ```yaml
 ---
@@ -82,15 +99,23 @@ last_updated: 2021-11-19 # 最后编辑日期(可选)
 
 ```yaml
 items:
+  - STM32:
+    - 1.开发环境搭建 | docs/stm32/setup_devenv/
+    - 2.GPIO使用 | docs/stm32/GPIO/
   - 其他:
-    - 编写文档 | docs/others/writting
-    - 额外语法 | docs/others/shortcut
+    - 编写文档 | docs/others/writting/
+    - 额外语法 | docs/others/shortcut/
 ```
 
+{% note warning %}
 其中 `|` 符号前的为文章在目录内显示的标题，后面的为文章相对于 `sources` 文件夹的相对路径。
 
-{% note info %}
-目录需自行手动添加，文档不会自动生成目录。
+相对路径最后注意不要遗漏 `/`，否则会导致图片无法加载。这与 Hexo 的渲染有关，举 `GPIO使用` 这篇文章为例子，Hexo最终会生成下列文件：
+
+- `/docs/stm32/GPIO/index.html`
+- `/docs/stm32/GPIO/1.png`
+
+在使用 `docs/stm32/GPIO` 路径时，`/docs/stm32/GPIO/index.html` 被正常加载，但是文章会尝试寻找 `/docs/stm32/1.png` 路径的图片，这显然会导致 404，在使用 `docs/stm32/GPIO/` 路径时，文章会尝试寻找 `/docs/stm32/GPIO/1.png` 路径的图片，图片被正常加载。
 {% endnote %}
 
 ## 保存并提交
