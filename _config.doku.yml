@@ -24,6 +24,7 @@ sidebar:
           - 编写指南 | docs/readme/writting/
           - 提交规范 | docs/readme/commit_spec/
         - STM32:
+          - 0.介绍&入门 | docs/stm32/intro/
           - 1.开发环境搭建 | docs/stm32/setup_devenv/
           - 2.GPIO使用 | docs/stm32/GPIO/
         - 其他:
