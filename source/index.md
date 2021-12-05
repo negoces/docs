@@ -20,7 +20,7 @@ type: docs
 - 拥有 [Github](https://github.com/) 帐号并知晓如何使用 [Git](https://git-scm.com/)。
 - 会使用 [Markdown](https://markdown.com.cn/intro.html) 语法编写文档。
 
-当你满足上述条件后，你可以先将此仓库 [Fork](https://github.com/login?return_to=%2Fnegoces%2Fdocs) 到自己账户，修改完成后在 Github 创建 [Pull Requests](https://github.com/negoces/docs/compare) (合并请求)，待核心成员审核。
+当你满足上述条件后，你可以先将此仓库 [Fork](https://github.com/login?return_to=%2Fnegoces%2Fdocs) 到自己账户，修改完成后在 Github 创建 [Pull Requests](https://github.com/negoces/docs/compare) (拉去请求)，待核心成员审核。
 
 {% note warning 注意 %}
 由于 Hexo 的 Markdown 渲染器功能有限，本文档可能不支持部分 Markdown 语法，请自行验证后再使用相应的语法。
