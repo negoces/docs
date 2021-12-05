@@ -22,6 +22,7 @@ sidebar:
       items:
         - 必读:
           - 仓库权限 | docs/readme/repo_perms/
+          - 如何贡献(核心成员) | docs/readme/commit_guide(admin)/
           - 编写指南 | docs/readme/writting/
           - 提交规范 | docs/readme/commit_spec/
         - STM32:
