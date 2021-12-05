@@ -25,7 +25,7 @@ sidebar:
           - 如何贡献(核心成员) | docs/readme/commit_guide_admin/
           - 如何贡献(普通成员) | docs/readme/commit_guide_member/
           - 目录结构 | docs/readme/dir_struct/
-          - 编写指南 | docs/readme/writting/
+          - 编写文档 | docs/readme/writting/
           - 提交规范 | docs/readme/commit_spec/
         - STM32:
           - 0.介绍&入门 | docs/stm32/intro/
