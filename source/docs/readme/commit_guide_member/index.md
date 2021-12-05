@@ -17,7 +17,7 @@ last_updated: 2021-12-05
 ---
 
 1. 如果你是**第一次参与编辑**：
-   1. 前往[仓库地址](https://github.com/negoces/docs)，[fork](https://github.com/login?return_to=/negoces/docs) 一份仓库。
+   1. 前往[仓库地址](https://github.com/negoces/docs)，fork 一份仓库。
    2. 将仓库克隆(clone)到本地。(**推荐使用 SSH 方式**)
    3. 对克隆下来的项目文件夹进行编辑，可以使用 VS Code 等编辑器打开项目文件夹以获得更好的编辑体验。
    4. 编辑过后进行本地渲染预览，**验证有无渲染错误**。(具体步骤参考本地预览)
