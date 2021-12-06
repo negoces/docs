@@ -31,7 +31,8 @@ sidebar:
         - STM32:
           - 0.介绍&入门 | docs/stm32/intro/
           - 1.开发环境搭建 | docs/stm32/setup_devenv/
-          - 2.GPIO使用 | docs/stm32/GPIO/
+          - 2. GPIO使用 | docs/stm32/GPIO/
+          - 2.1 GPIO跑马灯 | docs/stm32/GPIO/Lighten/
         - 其他:
           - 额外语法 | docs/others/shortcut/
 

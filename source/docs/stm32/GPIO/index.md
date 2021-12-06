@@ -1,7 +1,7 @@
 ---
 title: GPIO
 description: 这是STM32最需先理解的引脚操作，STM32第一课！
-type: docs 
+type: docs
 author_info: 由 Stephen_Y 编写 # 作者信息(可选)
 last_updated: 2021-11-20 # 最后编辑日期(可选)
 ---
